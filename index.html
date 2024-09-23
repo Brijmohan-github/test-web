@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>NEWS</title>
+  <script type="module" crossorigin src="/assets/index-Ba3CHaYD.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-5CWT_YYj.css">
+</head>
+
+<body>
+  <div id="root"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 20) {
+          $("#navba_scroll").css("top", "0px");
+        } else {
+          $("#navba_scroll").css("top", "-20px");
+        }
+      });
+    });
+
+    // 2bar navabr slide karne k lite red wala
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+          $("#navbar2").css("top", "0");
+        } else {
+          $("#navbar2").css("top", "-50px");
+        }
+      });
+    });
+  </script>
+
+  <script>
+    AOS.init();
+  </script>
+
+
+
+
+</body>
+
+</html>
